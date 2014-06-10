@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="codejump" parent="@style/_codejump"/>
+
+    <style name="_codejump" parent="Theme.AppCompat.Light">
+
+        <item name="android:editTextStyle">@style/EditTextcodejump</item>
+
+        <item name="android:textColorHighlight">#99ffb000</item>
+
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewcodejump</item>
+
+        <item name="android:checkboxStyle">@style/CheckBoxcodejump</item>
+
+        <item name="android:radioButtonStyle">@style/RadioButtoncodejump</item>
+
+        <item name="android:buttonStyle">@style/Buttoncodejump</item>
+
+        <item name="android:imageButtonStyle">@style/ImageButtoncodejump</item>
+
+        <item name="android:spinnerStyle">@style/Spinnercodejump</item>
+
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemcodejump</item>
+
+        <item name="android:progressBarStyleHorizontal">@style/ProgressBarcodejump</item>
+
+        <item name="android:seekBarStyle">@style/SeekBarcodejump</item>
+
+        <item name="android:ratingBarStyle">@style/RatingBarcodejump</item>
+
+        <item name="android:ratingBarStyleIndicator">@style/RatingBarBigcodejump</item>
+
+        <item name="android:ratingBarStyleSmall">@style/RatingBarSmallcodejump</item>
+
+        <item name="android:buttonStyleToggle">@style/Togglecodejump</item>
+
+        <item name="android:listViewStyle">@style/ListViewcodejump</item>
+
+        <item name="android:listViewWhiteStyle">@style/ListViewcodejump.White</item>
+
+        <item name="android:spinnerItemStyle">@style/SpinnerItemcodejump</item>
+
+    </style>
+
+    <style name="Facebook" parent="@style/_Facebook"/>
+
+    <style name="_Facebook" parent="Theme.AppCompat.Light">
+
+        <item name="android:buttonStyle">@style/ButtonFacebook</item>
+
+        <item name="android:imageButtonStyle">@style/ImageButtonFacebook</item>
+
+    </style>
+
+</resources>

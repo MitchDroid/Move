@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark">
+
+    <VideoView android:id="@+id/videoViewRelative"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </VideoView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50.0dip"
+        android:src="@drawable/muevete_splash_image"
+        android:contentDescription="@null" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="MergeRootFrame" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/button_signin"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/button_login"
+            android:layout_weight="1.0"
+            android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+            style="@style/Buttoncodejump" />
+        <Button
+            android:id="@+id/button_register"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/button_sign_up"
+            android:layout_weight="1.0"
+            android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+            style="@style/ButtonFacebook" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_bg"
+    tools:context="com.codejump.nomada.ui.activity.SignInActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="10.0dip"
+        tools:ignore="ScrollViewSize">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/card_grey_reva"
+            android:orientation="vertical"
+            android:paddingBottom="16.0dip"
+            tools:ignore="UselessParent">
+
+            <com.codejump.nomada.widget.FloatLabelLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="4.0dip"
+                android:layout_marginRight="4.0dip"
+                app:floatLabelTextAppearance="@style/FloatLayout">
+
+                <EditText
+                    style="@style/EditTextcodejump"
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/account_email_hint"
+                    android:imeOptions="actionNext"
+                    android:inputType="textNoSuggestions"
+                    android:nextFocusDown="@+id/password"
+                    android:singleLine="true" />
+
+            </com.codejump.nomada.widget.FloatLabelLayout>
+
+            <com.codejump.nomada.widget.FloatLabelLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="4.0dip"
+                android:layout_marginRight="4.0dip"
+                app:floatLabelTextAppearance="@style/FloatLayout">
+
+                <EditText
+                    style="@style/EditTextcodejump"
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/account_password_hint"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword"
+                    android:singleLine="true" />
+
+            </com.codejump.nomada.widget.FloatLabelLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="8.0dip">
+
+            <Button
+                style="@style/Buttoncodejump"
+                android:id="@+id/signin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/half_unit"
+                android:layout_weight="1.0"
+                android:text="@string/sign_button"
+                android:textSize="18.0sp"
+                android:paddingTop="16.0dip"
+                android:paddingBottom="16.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_marginLeft="10.0dip"
+                tools:ignore="InefficientWeight" />
+        </LinearLayout>
+
+        <com.codejump.nomada.widget.JellyBeanSpanFixTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.0dip"
+            android:fontFamily="sans-serif-light"
+            android:text="Forgot your password?"
+            android:layout_gravity="right"
+            android:paddingRight="20.0dip"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/light_grey"
+            android:textSize="14.0sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="16.0dip"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1.0dip"
+                android:layout_weight="1.0"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginLeft="10.0dip"
+                android:background="@color/light_grey"/>
+
+            <com.codejump.nomada.widget.JellyBeanSpanFixTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OR"
+                android:paddingRight="16.0dip"
+                android:paddingLeft="16.0dip"
+                android:layout_marginBottom="6dp"
+                android:layout_gravity="center"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/light_grey"
+                android:textSize="16.0sp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1.0dip"
+                android:layout_weight="1.0"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:background="@color/light_grey"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="8.0dip">
+
+            <Button
+                style="@style/ButtonFacebook"
+                android:id="@+id/signFacebook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/half_unit"
+                android:layout_weight="1.0"
+                android:text="@string/sign_button_facebook"
+                android:textSize="18.0sp"
+                android:paddingTop="16.0dip"
+                android:paddingBottom="16.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_marginLeft="10.0dip"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

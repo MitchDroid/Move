@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="codejump" parent="@style/_codejump"/>
+
+    <style name="_codejump" parent="Theme.AppCompat.Light">
+
+        <item name="android:editTextBackground">@drawable/codejump_edit_text_holo_light</item>
+
+        <item name="android:textColorHighlight">#99ffb000</item>
+        <item name="android:textSelectHandleLeft">@drawable/codejump_text_select_handle_left</item>
+        <item name="android:textSelectHandleRight">@drawable/codejump_text_select_handle_right</item>
+        <item name="android:textSelectHandle">@drawable/codejump_text_select_handle_middle</item>
+
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewcodejump</item>
+
+        <item name="android:listChoiceIndicatorMultiple">@drawable/codejump_btn_check_holo_light</item>
+
+        <item name="android:listChoiceIndicatorSingle">@drawable/codejump_btn_radio_holo_light</item>
+
+        <item name="android:buttonStyle">@style/Buttoncodejump</item>
+
+        <item name="android:imageButtonStyle">@style/ImageButtoncodejump</item>
+
+        <item name="android:dropDownSpinnerStyle">@style/Spinnercodejump</item>
+
+        <item name="android:progressBarStyleHorizontal">@style/ProgressBarcodejump</item>
+
+        <item name="android:seekBarStyle">@style/SeekBarcodejump</item>
+
+        <item name="android:ratingBarStyle">@style/RatingBarcodejump</item>
+
+        <item name="android:ratingBarStyleIndicator">@style/RatingBarBigcodejump</item>
+
+        <item name="android:ratingBarStyleSmall">@style/RatingBarSmallcodejump</item>
+
+        <item name="android:buttonStyleToggle">@style/Togglecodejump</item>
+
+        <item name="android:listChoiceBackgroundIndicator">@drawable/codejump_list_selector_holo_light</item>
+
+        <item name="android:activatedBackgroundIndicator">@drawable/codejump_activated_background_holo_light</item>
+
+        <item name="android:fastScrollThumbDrawable">@drawable/codejump_fastscroll_thumb_holo</item>
+
+    </style>
+
+</resources>
